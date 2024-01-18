@@ -12,7 +12,9 @@ layout: default
             </time>
             {%- if page.author -%}
             • <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span class="p-author h-card" itemprop="name">{{ page.author }}</span></span>
-            {%- endif -%}</p>
+            {%- endif -%}
+        <a href="/assets/angebote/{{ page.filename }}">Download Angebot</a>
+        </p>
         <p class="post-meta">
             {% if page.tags %}
                 {% for tag in page.tags %}

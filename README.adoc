@@ -4,7 +4,7 @@
 
 [source,terminal]
 ----
-docker run -it -v "${PWD}:/srv/jekyll" --name jekyll_4_2_0_textbauteine-mvp_PROD -p 4000:4000 jekyll/jekyll:4.2.0 jekyll serve
+docker run -it -v "${PWD}:/srv/jekyll" --name jekyll_4_2_0_textbausteine-mvp_PROD -p 4000:4000 jekyll/jekyll:4.2.0 jekyll serve
 ----
 
 == Run Created Page Locally

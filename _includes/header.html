@@ -31,7 +31,9 @@
 
 <div>
         {% for tag in site.tags %}
+    <a href="{{ site.baseurl }}/tag/{{ tag[0] }}/index.html">
             {{ tag[0] }}
+    </a>
         {% endfor %}
 </div>
 
